@@ -20,6 +20,8 @@ SQL queries were used to analyze login data and identify suspicious activity.
 
 A specific IP address (10.0.0.50) showed a significantly high number of failed login attempts compared to others.
 
+### SQL Result
+<img width="1040" height="434" alt="sql-detection-result" src="https://github.com/user-attachments/assets/d177dc61-5c78-453c-8956-3ef56f637cbe" />
 
 ## Analysis
 
@@ -35,6 +37,9 @@ Wireshark was used to capture and analyze normal network traffic from a local ma
 
 Although the exact attack traffic was not captured, this analysis helps establish a reference for identifying abnormal patterns such as repeated or automated requests.
 
+### Wireshark Capture
+<img width="1439" height="900" alt="dns-analysis" src="https://github.com/user-attachments/assets/6aa56dcf-bd02-4724-bbd4-38a5886f85bb" />
+
 
 ## Findings
 
@@ -45,11 +50,14 @@ Although the exact attack traffic was not captured, this analysis helps establis
 
 ## Response
 
+Based on the identified suspicious activity, the following response actions are recommended:
+
 * Block the suspicious IP address
 * Monitor for further unusual activity
 * Implement account lockout policies
 * Enable alerting for repeated login failures
 
+These actions are proposed as part of a simulated incident response process.
 
 ## Key Takeaways
 
