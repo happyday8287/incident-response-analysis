@@ -6,7 +6,6 @@ This project simulates a security incident involving repeated failed login attem
 
 The goal is to detect, analyze, and respond to potential brute-force attack behavior using basic security tools.
 
----
 
 ## Scenario
 
@@ -14,7 +13,6 @@ Multiple failed login attempts were detected from a single IP address (10.0.0.50
 
 This activity may indicate a brute-force attack attempting to gain unauthorized access.
 
----
 
 ## Detection (SQL Analysis)
 
@@ -22,7 +20,6 @@ SQL queries were used to analyze login data and identify suspicious activity.
 
 A specific IP address (10.0.0.50) showed a significantly high number of failed login attempts compared to others.
 
----
 
 ## Analysis
 
@@ -38,7 +35,6 @@ Wireshark was used to capture and analyze normal network traffic from a local ma
 
 Although the exact attack traffic was not captured, this analysis helps establish a reference for identifying abnormal patterns such as repeated or automated requests.
 
----
 
 ## Findings
 
@@ -46,7 +42,6 @@ Although the exact attack traffic was not captured, this analysis helps establis
 * Pattern: Multiple failed login attempts
 * Possible Threat: Brute-force attack
 
----
 
 ## Response
 
@@ -55,7 +50,6 @@ Although the exact attack traffic was not captured, this analysis helps establis
 * Implement account lockout policies
 * Enable alerting for repeated login failures
 
----
 
 ## Key Takeaways
 
@@ -63,7 +57,6 @@ Although the exact attack traffic was not captured, this analysis helps establis
 * Understanding normal network traffic is essential for identifying anomalies
 * Basic tools can be used to simulate real-world security analysis
 
----
 
 ## Conclusion
 
